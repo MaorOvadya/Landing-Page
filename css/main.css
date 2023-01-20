@@ -1155,7 +1155,7 @@ html {
 @media screen and (max-width: 1024px) {
   .news-letter {
     background-color: rgb(73, 85, 121);
-    height: 420px;
+    height: 480px;
   }
   .news-letter h1 {
     letter-spacing: 2px;
@@ -1214,8 +1214,9 @@ html {
   .news-letter .sign-up .singUp-form label {
     position: relative;
     top: -32px;
-    right: 80px;
+    right: 60px;
     color: rgba(255, 255, 255, 0.75);
+    font-size: 10px;
   }
 }
 @media screen and (min-width: 1024px) {
