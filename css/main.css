@@ -265,6 +265,9 @@ html {
     text-decoration: none;
     font-size: 4rem;
   }
+  .container-menu .container-nav .nav-menu .nav-link:hover {
+    color: rgb(0, 0, 0);
+  }
   .container-menu .container-nav .hamburger-menu {
     display: none;
     padding-top: 20px;
