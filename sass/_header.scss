@@ -1,11 +1,14 @@
+
+
 @media screen and (max-width: 1024px) {
 
     .container-line {
-
+        
         width: 100%;
         height: 100%;
 
         .block {
+
             display: flex;
             justify-content: center;
             justify-items: center;
@@ -45,7 +48,6 @@
         opacity: 0.8;
 
         .container-nav {
-
             display: flex;
             justify-content: space-between;
             justify-items: center;
@@ -61,6 +63,7 @@
             }
 
             .nav-menu {
+
                 position: absolute;
                 display:flex;
                 flex-direction: column;
@@ -103,10 +106,12 @@
 
             .nav-menu.active {
                 left: 0;
+
             }
 
+
             .nav-menu {
-                
+
                 .nav-item:hover {
                     background-color: rgb(255, 255, 255,0.50);
 
@@ -119,10 +124,11 @@
             }
 
             .hamburger-menu {
+
                 display: block;
                 padding-top: 20px;
                 padding: 20px;
-
+ 
                 .bar { 
                     display: block;
                     width: 30px;
@@ -130,12 +136,15 @@
                     margin: 5px auto;
                     background-color: white;
                     -webkit-transition: all .3s ease-in-out;
-                    transition: all .3s ease-in-out;   
+                    transition: all .3s ease-in-out;  
+
                 }
+
             }
 
             .hamburger-menu:hover {
                  background-color:rgb(255, 255, 255,0.25);
+
 
                 .bar {
                     background-color: rgb(0, 0, 0);
@@ -156,7 +165,7 @@
 
             .hamburger-menu.active {
 
-               .bar {
+                .bar {
                    background-color: rgb(0, 0, 0);
 
                }
