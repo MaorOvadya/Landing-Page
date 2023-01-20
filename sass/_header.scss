@@ -1,0 +1,397 @@
+@media screen and (max-width: 1024px) {
+
+    .container-line {
+
+        width: 100%;
+        height: 100%;
+
+        .block {
+            display: flex;
+            justify-content: center;
+            justify-items: center;
+            width: 100%;
+            height: 50px;
+            background-color: rgb(73, 85, 121);
+             
+            p {
+                text-align: center;
+                font-size: 18px;
+                color: white;
+                padding-top: 12px;
+                padding-right: 20px;
+            }
+
+            .left , .right {
+
+                padding-top: 5px;
+                
+            }
+
+            .right {
+
+                padding-right: 50px;
+
+            }
+        }
+    }
+
+    .container-menu {
+
+        background-image: url("/image/cruise\ ship\ -\ Peter\ Hansen.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 700px;
+        opacity: 0.8;
+
+        .container-nav {
+
+            display: flex;
+            justify-content: space-between;
+            justify-items: center;
+            background-color: rgb(0, 0, 0,0.50);
+            width: 100%;
+            height: 80px;
+            
+
+            .logo-sym {
+
+            padding-left: 10px;
+
+            }
+
+            .nav-menu {
+                position: absolute;
+                display:flex;
+                flex-direction: column;
+                justify-content: center;
+                justify-items: center;
+                width: 100%;
+                text-align: center;
+                background-color:rgb(0, 0, 0,0.50);
+                top: 130px;
+                left: -100%; 
+                transition: 0.3s;
+
+                .logo {
+
+                    display: none;
+
+                }
+
+                .nav-item {
+                    
+                    list-style-type: none;
+                    border-bottom: 3px solid black;
+                    width: 100%;
+                    padding: 20px;
+
+                    .nav-link {
+
+                        color: white;
+                        text-decoration: none;
+                        font-size: 2rem;
+                        font-weight: bold;
+
+                    }
+                }
+            }
+
+            .nav-menu.nav-menu.active .nav-item:nth-child(6) {
+                border-bottom: none;
+            }
+
+            .nav-menu.active {
+                left: 0;
+            }
+
+            .nav-menu {
+                
+                .nav-item:hover {
+                    background-color: rgb(255, 255, 255,0.50);
+
+                    .nav-link {
+                    color: rgb(0, 0, 0);
+ 
+                    }
+                }
+
+            }
+
+            .hamburger-menu {
+                display: block;
+                padding-top: 20px;
+                padding: 20px;
+
+                .bar { 
+                    display: block;
+                    width: 30px;
+                    height: 5px;
+                    margin: 5px auto;
+                    background-color: white;
+                    -webkit-transition: all .3s ease-in-out;
+                    transition: all .3s ease-in-out;   
+                }
+            }
+
+            .hamburger-menu:hover {
+                 background-color:rgb(255, 255, 255,0.25);
+
+                .bar {
+                    background-color: rgb(0, 0, 0);
+
+                }
+
+            }
+
+            .hamburger-menu.active .bar:nth-child(1) {
+            transform: translateY(10px) rotate(45deg);
+            }
+            .hamburger-menu.active .bar:nth-child(3) {
+            transform: translateY(-10px) rotate(-45deg);
+            }
+            .hamburger-menu.active .bar:nth-child(2) {
+            opacity: 0;
+            }
+
+            .hamburger-menu.active {
+
+               .bar {
+                   background-color: rgb(0, 0, 0);
+
+               }
+
+           }
+
+        }
+        
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .container-line {
+
+        .block {
+            display: flex;
+            justify-content: right;
+            justify-items: center;
+            width: 100%;
+            height: 50px;
+            background-color: #495579;
+             
+            p {
+                text-align: center;
+                font-size: 18px;
+                color: white;
+                padding-top: 12px;
+                padding-right: 20px;
+            }
+
+            .left , .right {
+
+                padding-top: 5px;
+                
+            }
+
+            .right {
+
+                padding-right: 50px;
+
+            }
+        }
+    }
+
+    .container-menu {
+
+        background-image: url("/image/cruise\ ship\ -\ Peter\ Hansen.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 700px;
+        opacity: 0.8;
+
+        .container-nav {
+
+            display: flex;
+            justify-content: space-evenly;
+            justify-items: center;
+            background-color: rgb(0, 0, 0,0.50);
+            width: 100%;
+            height: 80px;
+            
+            .logo {
+
+            padding-right: 20px;    
+
+            }
+
+            .logo-sym {
+
+                display: none;
+            }
+
+            .nav-menu {
+
+                display: flex;
+                justify-content: center;
+                justify-items: center;
+                padding-top: 20px;
+                gap: 60px;
+                
+
+                .nav-item {
+            
+                    list-style-type: none;     
+
+                    .nav-link {
+                        color: white;
+                        text-decoration: none;
+                        font-size: 2rem;
+                        
+                    }
+
+                }
+                .nav-link:hover {
+
+                    color:rgb(0, 0, 0);
+
+                }
+            }
+
+            .hamburger-menu {
+
+                display: none;
+                padding-top: 20px;
+                padding-right: 30px;
+
+                .bar {
+                    display: block;
+                    width: 30px;
+                    height: 5px;
+                    margin: 5px auto;
+                    background-color: white;
+                    
+                }
+
+            }
+
+        }
+        
+
+    }
+
+    }
+
+    @media screen and (min-width: 1917px) {
+
+        .container-line {
+    
+        .block {
+            display: flex;
+            justify-content: right;
+            justify-items: center;
+            width: 100%;
+            height: 100px;
+            background-color: #495579;
+             
+            p {
+                text-align: center;
+                font-size: 42px;
+                color: white;
+                padding-top: 22px;
+                padding-right: 40px;
+            }
+
+            .left , .right {
+
+                padding-top: 5px;
+                height: 100px;
+                
+            }
+
+            .right {
+
+                padding-right: 50px;
+
+            }
+        }
+        }
+    
+        .container-menu {
+    
+            background-image: url("/image/cruise\ ship\ -\ Peter\ Hansen.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 1600px;
+            opacity: 0.8;
+    
+            .container-nav {
+    
+                display: flex;
+                justify-content: space-evenly;
+                justify-items: center;
+                background-color: rgb(0, 0, 0,0.5);
+                width: 100%;
+                height: 160px;
+                
+                .logo {
+                width: 450px;
+                height: 90px;
+                padding-right: 20px;    
+    
+                }
+
+                .logo-sym {
+
+                    display: none;
+
+                }
+    
+                .nav-menu {
+    
+                    display: flex;
+                    justify-content: center;
+                    justify-items: center;
+                    padding-top: 40px;
+                    gap: 120px;
+    
+                    .nav-item {
+                        
+                        list-style-type: none;
+    
+                        .nav-link {
+    
+                            color: white;
+                            text-decoration: none;
+                            font-size: 4rem;
+    
+                        }
+    
+                    }
+    
+                }
+    
+                .hamburger-menu {
+    
+                    display: none;
+                    padding-top: 20px;
+                    padding-right: 30px;
+    
+                    .bar {
+                        display: block;
+                        width: 30px;
+                        height: 5px;
+                        margin: 5px auto;
+                        background-color: white;
+                        
+                }
+    
+            }
+    
+        }
+            
+    }
+}

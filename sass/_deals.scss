@@ -1,0 +1,596 @@
+@media screen and (max-width: 1024px) {
+
+.container-deals {
+
+    width: 100%;
+    height: 2350px;
+    background:linear-gradient(0.50turn,rgb(73, 85, 121), white); 
+
+    h1 {
+        padding: 20px;
+        text-align: center;
+        font-size: 2rem;
+        letter-spacing: 3px;
+        color: white;
+    }
+    .weekly-deals {
+
+
+        .container-img {
+
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            width: 90%;
+            margin-inline: auto;
+            gap: 80px;
+            
+            .img01 {
+
+                margin: auto;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                border: 2px solid black;
+                background-image: url("/image/Vancouver\ -Brayden\ Law.jpg");
+                width: 90%;
+                height: 300px;
+                box-shadow: 0px 20px 10px rgb(73, 85, 121);
+                border-radius: 20px ;
+ 
+            }
+            .img02 {
+                margin: auto;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                border: 2px solid black;
+                background-image: url("/image/Seattle\ -\ Thom\ Milkovic.jpg");
+                width: 90%;
+                height: 300px;
+                box-shadow: 0px 20px 10px rgb(73, 85, 121);
+                border-radius: 20px ;
+    
+            }
+            .img03 {
+    
+                margin: auto;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                border: 2px solid black;
+                background-image: url("/image/San\ Francisco\ -\ Maarten\ Van\ Den-heuvel.jpg");
+                width: 90%;
+                height: 300px;
+                box-shadow: 0px 20px 10px rgb(73, 85, 121);
+                border-radius: 20px ;
+    
+            }
+            .img04 {
+    
+                margin: auto;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                border: 2px solid black;
+                background-image: url("/image/Los\ Angeles\ -\ Venti\ Views.jpg");
+                width: 90%;
+                height: 300px;
+                box-shadow: 0px 20px 10px rgb(73, 85, 121);
+                border-radius: 20px ;
+            }
+            .img05 {
+    
+                margin: auto;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                border: 2px solid black;
+                background-image: url("/image/san\ diego\ -\ Stephen\ Leonardi.jpg");
+                width: 90%;
+                height: 300px;
+                box-shadow: 0px 20px 10px rgb(73, 85, 121);
+                border-radius: 20px ;
+    
+            }
+            .img06 {
+    
+                margin: auto;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                border: 2px solid black;
+                background-image: url("/image/Honolulu\ hawaii\ -\ Walter\ Martin.jpg");
+                width: 90%;
+                height: 300px;
+                box-shadow: 0px 20px 10px rgb(73, 85, 121);
+                border-radius: 20px ;
+    
+            }
+        }
+
+
+        .container-img section {
+
+            position: relative;
+            overflow: hidden;
+
+          }
+
+          .container-img section::after {
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: block;
+            width: 0;
+            height: 100%;
+            background-color: rgb(0, 0, 0,0.5);
+            content: '';
+          
+        }
+    
+        .container-img section:hover .img-overlay {
+          left: 0; 
+        }
+        .container-img section::after {
+          width: 100%; 
+
+        }
+        .container-img .img-overlay {
+            position: relative;
+            left: 0;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            color: rgb(251, 252, 255);
+            z-index: 1; 
+            
+          
+          }
+
+          .container-img .img-overlay span {
+
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-top: 10px;
+            padding: 10px;
+            
+          }
+
+          .container-img .img-overlay .price {
+            color: #4FA095;
+            font-weight:bolder;
+            font-size: 1.8rem;
+
+          }
+
+          .container-img .img-overlay .book-now {
+            font-size: 2rem;
+            color: #E8AA42;
+            border-radius: 20px;
+            font-weight: 900;
+            animation: color-change 6s infinite;
+            @keyframes color-change {
+                0% { color:#E8AA42 }
+                25% {color: #5A8F7B;}
+                50% { color:#FEE2C5}
+                75% {color: #607EAA;}
+                100% { color:#EB6440}
+              }
+          }
+
+          .container-img .img-overlay .location {
+
+            color: #B7C4CF ;
+
+          }
+ 
+
+    }
+
+}
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1917px) {
+
+    .container-deals {
+
+        width: 100%;
+        height: 1250px;
+        background:linear-gradient(0.50turn,rgb(73, 85, 121), white); 
+        overflow: hidden;
+    
+        h1 {
+            padding: 40px;
+            text-align: center;
+            font-size: 3rem;
+            letter-spacing: 3px;
+            color: white;
+            
+        }
+        .weekly-deals {
+    
+
+            .container-img {
+
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                width: 90%;
+                margin-inline: auto;
+                gap: 80px;
+
+                .img01 {
+                    margin-top: 10px;
+                    margin: auto;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    border: 2px solid black;
+                    background-image: url("/image/Vancouver\ -Brayden\ Law.jpg");
+                    width: 90%;
+                    height: 300px;
+                    box-shadow: 0px 20px 10px rgb(73, 85, 121);
+                    border-radius: 20px ;
+    
+
+                }
+                .img02 {
+                    margin: auto;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    border: 2px solid black;
+                    background-image: url("/image/Seattle\ -\ Thom\ Milkovic.jpg");
+                    width: 90%;
+                    height: 300px;
+                    box-shadow: 0px 20px 10px rgb(73, 85, 121);
+                    border-radius: 20px ;
+        
+                }
+                .img03 {
+        
+                    margin: auto;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    border: 2px solid black;
+                    background-image: url("/image/San\ Francisco\ -\ Maarten\ Van\ Den-heuvel.jpg");
+                    width: 90%;
+                    height: 300px;
+                    box-shadow: 0px 20px 10px rgb(73, 85, 121);
+                    border-radius: 20px ;
+        
+                }
+                .img04 {
+        
+                    margin: auto;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    border: 2px solid black;
+                    background-image: url("/image/Los\ Angeles\ -\ Venti\ Views.jpg");
+                    width: 90%;
+                    height: 300px;
+                    box-shadow: 0px 20px 10px rgb(73, 85, 121);
+                    border-radius: 20px ;
+                }
+                .img05 {
+        
+                    margin: auto;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    border: 2px solid black;
+                    background-image: url("/image/san\ diego\ -\ Stephen\ Leonardi.jpg");
+                    width: 90%;
+                    height: 300px;
+                    box-shadow: 0px 20px 10px rgb(73, 85, 121);
+                    border-radius: 20px ;
+        
+                }
+                .img06 {
+        
+                    margin: auto;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    border: 2px solid black;
+                    background-image: url("/image/Honolulu\ hawaii\ -\ Walter\ Martin.jpg");
+                    width: 90%;
+                    height: 300px;
+                    box-shadow: 0px 20px 10px rgb(73, 85, 121);
+                    border-radius: 20px ;
+        
+                }
+            }
+
+            .container-img section {
+
+                position: relative;
+                overflow: hidden;
+    
+              }
+    
+              .container-img section::after {
+                position: absolute;
+                top: 0;
+                left: 0;
+                display: block;
+                width: 0;
+                height: 100%;
+                background-color: rgb(0, 0, 0,0.5);
+                content: '';
+              
+            }
+        
+            .container-img section:hover .img-overlay {
+              left: 0; 
+            }
+            .container-img section::after {
+              width: 100%; 
+    
+            }
+            .container-img .img-overlay {
+                position: relative;
+                left: 0;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                color: rgb(251, 252, 255);
+                z-index: 1; 
+              
+              }
+    
+              .container-img .img-overlay span {
+    
+                font-size: 2rem;
+                font-weight: bold;
+                margin-top: 10px;
+                padding: 10px;
+                
+              }
+    
+              .container-img .img-overlay .price {
+                color: #4FA095;
+                font-weight:bolder;
+    
+              }
+    
+              .container-img .img-overlay .book-now {
+                font-size: 2.5rem;
+                color: #E8AA42;
+                border-radius: 20px;
+                font-weight: 900;
+                animation: color-change 6s infinite;
+                @keyframes color-change {
+                    0% { color:#E8AA42 }
+                    25% {color: #5A8F7B;}
+                    50% { color:#FEE2C5}
+                    75% {color: #607EAA;}
+                    100% { color:#EB6440}
+                  }
+              }
+    
+              .container-img .img-overlay .location {
+
+                color: #B7C4CF ;
+    
+              }
+    
+        }
+    
+    }
+
+}
+
+@media screen and (min-width: 1917px) {
+
+
+    .container-deals {
+
+        width: 100%;
+        height: 2400px;
+        background:linear-gradient(0.50turn,rgb(73, 85, 121), white); 
+    
+        h1 {
+            padding: 80px;
+            text-align: center;
+            font-size: 6rem;
+            letter-spacing: 6px;
+            color: white;
+            
+        }
+        .weekly-deals {
+    
+
+            .container-img {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                width: 90%;
+                margin-inline: auto;
+                gap: 80px;
+
+
+                .img01 {
+                    margin-top: 20px;
+                    margin: auto;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    border: 4px solid black;
+                    background-image: url("/image/Vancouver\ -Brayden\ Law.jpg");
+                    width: 90%;
+                    height: 600px;
+                    box-shadow: 0px 40px 20px rgb(73, 85, 121);
+                    border-radius: 20px ;
+    
+
+                }
+                .img02 {
+                    margin: auto;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    border: 4px solid black;
+                    background-image: url("/image/Seattle\ -\ Thom\ Milkovic.jpg");
+                    width: 90%;
+                    height: 600px;
+                    box-shadow: 0px 40px 20px rgb(73, 85, 121);
+                    border-radius: 20px ;
+        
+                }
+                .img03 {
+        
+                    margin: auto;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    border: 4px solid black;
+                    background-image: url("/image/San\ Francisco\ -\ Maarten\ Van\ Den-heuvel.jpg");
+                    width: 90%;
+                    height: 600px;
+                    box-shadow: 0px 40px 20px rgb(73, 85, 121);
+                    border-radius: 20px ;
+        
+                }
+                .img04 {
+        
+                    margin: auto;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    border: 4px solid black;
+                    background-image: url("/image/Los\ Angeles\ -\ Venti\ Views.jpg");
+                    width: 90%;
+                    height: 600px;
+                    box-shadow: 0px 40px 20px rgb(73, 85, 121);
+                    border-radius: 20px ;
+                }
+                .img05 {
+        
+                    margin: auto;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    border: 4px solid black;
+                    background-image: url("/image/san\ diego\ -\ Stephen\ Leonardi.jpg");
+                    width: 90%;
+                    height: 600px;
+                    box-shadow: 0px 40px 20px rgb(73, 85, 121);
+                    border-radius: 20px ;
+        
+                }
+                .img06 {
+        
+                    margin: auto;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    border: 4px solid black;
+                    background-image: url("/image/Honolulu\ hawaii\ -\ Walter\ Martin.jpg");
+                    width: 90%;
+                    height: 600px;
+                    box-shadow: 0px 40px 20px rgb(73, 85, 121);
+                    border-radius: 20px ;
+        
+                }
+            }
+
+          .container-img section {
+
+            position: relative;
+            overflow: hidden;
+
+          }
+
+          .container-img section::after {
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: block;
+            width: 0;
+            height: 100%;
+            background-color: rgb(0, 0, 0,0.5);
+            transition: all .5s; 
+            content: '';
+          
+        }
+    
+        .container-img section:hover .img-overlay {
+          left: 0; 
+        }
+        .container-img section:hover::after {
+          width: 100%; 
+
+        }
+        .container-img .img-overlay {
+            position: relative;
+            left: -90%;
+            transition: all .8s;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            color: rgb(251, 252, 255);
+            z-index: 1; 
+          
+          }
+
+          .container-img .img-overlay span {
+
+            font-size: 5rem;
+            font-weight: bold;
+            margin-top: 10px;
+            padding: 10px;
+            
+          }
+
+          .container-img .img-overlay .price {
+            color: #4FA095;
+            font-size: 6rem;
+            font-weight:bolder;
+
+          }
+
+          .container-img .img-overlay .book-now {
+            background-color: rgb(183, 196, 207,0.50);
+            color: rgb(232, 170, 66);
+            border: 2px solid black;
+            border-radius: 20px;
+            font-weight: 900;
+            font-size: 5rem;
+            cursor: pointer;
+          }
+
+          .container-img .img-overlay .book-now:hover {
+            // animation: color-change 6s infinite;
+            // @keyframes color-change {
+            //     0% { color:#E8AA42 }
+            //     25% {color: #5A8F7B;}
+            //     50% { color:#FEE2C5}
+            //     75% {color: #607EAA;}
+            //     100% { color:#EB6440}
+            //   }
+            border: radius 20px;;
+            font-weight: 900;
+            font-size: 8rem;
+            cursor: pointer;
+            transition: all .8s ease-in-out;
+          }
+
+          .container-img .img-overlay .location {
+
+            color: #B7C4CF ;
+
+          }
+
+        }
+    
+    }
+}

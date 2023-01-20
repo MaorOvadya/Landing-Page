@@ -1,0 +1,357 @@
+@media screen and (max-width: 1024px) {
+
+    .container-search {
+
+        width: 100%;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+
+        .title-block {
+
+            display: flex;
+            justify-content: center;
+            justify-items: center;
+            background-color: rgb(255, 255, 255);
+            height: 350px;
+            margin: 20px;
+            border: 0.5px solid black;
+            border-radius: 10px;
+            position: relative;
+            bottom: 100px;
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            box-shadow: 0px 10px 5px rgb(73, 85, 121) ;
+
+            h1 {
+
+                font-size: 2rem;
+
+            }
+        }
+   
+        .departure {
+
+            padding-top: 20px;
+
+            select {
+                
+                width: 300px;
+                height: 30px;
+                padding: 20px;
+                border: 1px solid black;
+                color:rgb(73, 85, 121);
+                background-color: rgb(255, 255, 255);
+                font-size: 1.2rem;
+
+            }
+
+
+        }
+
+        .destination {
+
+            padding-top: 20px;
+
+            select {
+                
+                width: 300px;
+                height: 30px;
+                padding: 20px;
+                border: 1px solid black;
+                color:rgb(73, 85, 121);
+                background-color: rgb(255, 255, 255);
+                font-size: 1.2rem;
+
+            }
+        }
+
+        .date {
+
+            padding-top: 20px;
+
+            input {
+
+                width: 300px;
+                height: 30px;
+                padding: 20px;
+                border: 1px solid black;
+                color:rgb(73, 85, 121);
+                background-color: rgb(255, 255, 255);
+                font-size: 1.2rem;
+                border-radius: 10px;
+            }
+        }
+
+        .button {
+
+            margin-top: 40px;
+            
+            .submit-buttom {
+                border-radius: 20px;
+
+                width: 200px;
+                padding: 20px;
+                border: 1px solid black;
+                color: white;
+                background-color: rgb(73, 85, 121);
+                font-size: 1rem;
+            } 
+
+        }
+
+        .button:hover {
+
+            .submit-buttom {
+
+                cursor: pointer;
+                background-color: #263159;
+                color: rgb(255, 255, 255);
+                border: 2px solid rgb(255, 255, 255);
+
+                
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .container-search {
+
+        width: 100%;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+        margin-bottom: 30px;
+
+        
+        .title-block {
+
+            .survery-form{
+
+            display: flex; 
+            flex-wrap: nowrap;
+            justify-content: center;  
+            background-color: rgb(255, 255, 255);
+            height: 150px;
+            margin: 20px;
+            border-radius: 10px;
+            bottom: 100px;
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            box-shadow: 0px 20px 10px rgb(73, 85, 121) ;
+
+
+                .h1 {
+                        position: absolute;
+                        top: 760px;
+                        font-size: 1.5rem;
+                        
+                }
+
+        }
+   
+        .departure {
+
+            padding-top: 25px;
+            padding-top: 40px;
+
+
+            select {
+                
+                width: 300px;
+                height: 35px;
+                padding: 20px;
+                border: 1px solid black;
+                color:rgb(73, 85, 121);
+                background-color: rgb(255, 255, 255);
+                font-size: 1.2rem;
+            }
+        }
+
+        .destination {
+
+            padding-top: 40px;
+            padding-left: 50px;
+
+
+            select {
+                
+                width: 300px;
+                height: 35px;
+                padding: 20px;
+                border: 1px solid black;
+                color:rgb(73, 85, 121);
+                background-color: rgb(255, 255, 255);
+                font-size: 1.2rem;
+
+            }
+        }
+
+        .date {
+
+            padding-top: 35px;
+            padding-left: 50px;
+
+
+            input {
+
+                width: 250px;
+                height: 30px;
+                padding: 20px;
+                border: 1px solid black;
+                color:rgb(73, 85, 121);
+                background-color: rgb(255, 255, 255);
+                font-size: 1.2rem;
+                border-radius: 10px;
+            }
+        }
+
+        .button {
+  
+            padding-top: 25px;
+            padding-left: 50px;
+
+            .submit-buttom {
+                border-radius: 20px;
+
+                width: 200px;
+                padding: 20px;
+                border: 1px solid black;
+                color: white;
+                background-color: rgb(73, 85, 121);
+                font-size: 1rem;
+            } 
+
+        }
+        
+        .button:hover {
+
+            .submit-buttom {
+
+                cursor: pointer;
+                background-color: #263159;
+                color: rgb(255, 255, 255);
+                border: 2px solid rgb(255, 255, 255);
+
+                
+                
+            }
+        }
+
+        }
+    }           
+}
+
+@media screen and (min-width: 1917px) {
+
+    .container-search {
+
+        background-color: rgb(255, 255, 255);
+        margin-bottom: 30px;
+        
+        .title-block {
+
+            .survery-form{
+
+            display: flex; 
+            flex-wrap: nowrap;
+            justify-content: center;  
+            background-color: rgb(255, 255, 255);
+            height: 250px;
+            margin: 20px;
+            border-radius: 10px;
+            bottom: 100px;
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            box-shadow: 0px 20px 10px rgb(73, 85, 121) ;
+
+
+                .h1 {
+                        position: absolute;
+                        top: 1710px;
+                        font-size: 4.0rem;
+                        
+                }
+
+        }
+   
+        .departure {
+
+            padding-top: 80px;
+            
+            select {
+                
+                width: 600px;
+                height: 60px;
+                padding: 40px;
+                border: 2px solid black;
+                color:rgb(73, 85, 121);
+                background-color: rgb(255, 255, 255);
+                font-size: 1.8rem;
+
+            }
+        }
+
+        .destination {
+
+            padding-top: 80px;
+            padding-left: 100px;
+
+
+            select {
+                
+                width: 600px;
+                height: 60px;
+                padding: 40px;
+                border: 2px solid black;
+                color:rgb(73, 85, 121);
+                background-color: rgb(255, 255, 255);
+                font-size: 1.8rem;
+
+
+            }
+        }
+
+        .date {
+
+            padding-top: 65px;
+            padding-left: 100px;
+
+
+            input {
+
+                width: 450px;
+                height: 60px;
+                padding: 40px;
+                border: 2px solid black;
+                color:rgb(73, 85, 121);
+                background-color: rgb(255, 255, 255);
+                font-size: 2.2rem;
+                border-radius: 20px;
+            }
+        }
+
+        .button {
+  
+            padding-top: 45px;
+            padding-left: 100px;
+
+            .submit-buttom {
+                
+                width: 400px;
+                padding: 40px;
+                border: 2px solid black;
+                color: white;
+                background-color: rgb(73, 85, 121);
+                font-size: 2rem;
+            } 
+
+        }
+
+        }
+    }   
+
+}
