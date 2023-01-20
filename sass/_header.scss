@@ -1,6 +1,4 @@
-
-
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px)  {
 
     .container-line {
         
@@ -48,6 +46,7 @@
         opacity: 0.8;
 
         .container-nav {
+
             display: flex;
             justify-content: space-between;
             justify-items: center;
